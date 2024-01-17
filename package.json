@@ -7,7 +7,21 @@
     "build": "bunchee"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "development": "./dist/index.development.mjs",
+        "production": "./dist/index.production.mjs",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "production": "./dist/index.production.js",
+        "development": "./dist/index.development.js",
+        "default": "./dist/index.js"
+      },
+      "default": "./dist/index.js"
+    }
   },
   "keywords": [],
   "author": "Jan Amann",

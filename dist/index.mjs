@@ -1,5 +1,3 @@
-Object.defineProperty(exports, '__esModule', { value: true });
-
 function hello(name) {
     if (process.env.NODE_ENV === 'development') {
         console.log('Hello function called');
@@ -7,4 +5,4 @@ function hello(name) {
     return `Hello ${name}!`;
 }
 
-exports.hello = hello;
+export { hello };

@@ -1,4 +1,4 @@
-export default function hello(name:string) {
+export function hello(name:string) {
   if (process.env.NODE_ENV === 'development') {
     console.log('Hello function called');
   }
