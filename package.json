@@ -1,0 +1,21 @@
+{
+  "name": "bunchee-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bunchee"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Jan Amann",
+  "license": "MIT",
+  "dependencies": {
+    "bunchee": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5"
+  }
+}
