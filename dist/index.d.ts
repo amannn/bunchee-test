@@ -1,3 +1,6 @@
-declare function hello(name: string): string;
+export * from './core.mjs';
+export * from './react.mjs';
 
-export { hello };
+declare function index(): string;
+
+export { index };

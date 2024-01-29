@@ -1,7 +1,10 @@
-export function hello(name:string) {
+export * from './core';
+export * from './react';
+
+export function index() {
   if (process.env.NODE_ENV === 'development') {
-    console.log('Hello function called');
+    console.log('index function called');
   }
 
-  return `Hello ${name}!`;
+  return 'index';
 }

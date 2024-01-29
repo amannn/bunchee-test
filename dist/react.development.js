@@ -4,7 +4,7 @@ var core = require('bunchee-test/core');
 var react = require('bunchee-test/react');
 
 function index() {
-    if (process.env.NODE_ENV === 'development') {
+    {
         console.log('index function called');
     }
     return 'index';

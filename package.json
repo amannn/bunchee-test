@@ -21,6 +21,36 @@
         "default": "./dist/index.js"
       },
       "default": "./dist/index.js"
+    },
+    "./core": {
+      "import": {
+        "types": "./dist/core.d.mts",
+        "development": "./dist/core.development.mjs",
+        "production": "./dist/core.production.mjs",
+        "default": "./dist/core.mjs"
+      },
+      "require": {
+        "types": "./dist/core.d.ts",
+        "production": "./dist/core.production.js",
+        "development": "./dist/core.development.js",
+        "default": "./dist/core.js"
+      },
+      "default": "./dist/core.js"
+    },
+    "./react": {
+      "import": {
+        "types": "./dist/react.d.mts",
+        "development": "./dist/react.development.mjs",
+        "production": "./dist/react.production.mjs",
+        "default": "./dist/react.mjs"
+      },
+      "require": {
+        "types": "./dist/react.d.ts",
+        "production": "./dist/react.production.js",
+        "development": "./dist/react.development.js",
+        "default": "./dist/react.js"
+      },
+      "default": "./dist/react.js"
     }
   },
   "keywords": [],
