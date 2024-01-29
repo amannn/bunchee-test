@@ -27,7 +27,7 @@
   "author": "Jan Amann",
   "license": "MIT",
   "dependencies": {
-    "bunchee": "^4.4.0"
+    "bunchee": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.5"
