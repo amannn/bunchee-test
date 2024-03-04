@@ -1,11 +1,8 @@
-export * from 'bunchee-test/core';
-export * from 'bunchee-test/react';
-
-function index() {
+function react() {
     {
-        console.log('index function called');
+        console.log('react function called');
     }
-    return 'index';
+    return 'react';
 }
 
-export { index };
+export { react };

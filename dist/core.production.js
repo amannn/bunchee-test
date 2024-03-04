@@ -1,7 +1,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function react() {
-    return 'react';
+function core() {
+    return 'core';
 }
 
-exports.react = react;
+exports.core = core;

@@ -1,6 +1,3 @@
-export * from './core.mjs';
-export * from './react.mjs';
+declare function react(): string;
 
-declare function index(): string;
-
-export { index };
+export { react };
