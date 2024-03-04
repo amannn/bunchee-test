@@ -1,5 +1,5 @@
-export * from './dist/core.js';
-export * from './dist/react.js';
+export * from './core.js';
+export * from './react.js';
 
 declare function index(): string;
 
