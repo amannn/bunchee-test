@@ -1,25 +1,6 @@
-Object.defineProperty(exports, '__esModule', { value: true });
+export * from './core.js';
+export * from './react.js';
 
-var core = require('bunchee-test/core');
-var react = require('bunchee-test/react');
+declare function index(): string;
 
-function index() {
-    if (process.env.NODE_ENV === 'development') {
-        console.log('index function called');
-    }
-    return 'index';
-}
-
-exports.index = index;
-Object.keys(core).forEach(function (k) {
-  if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
-    enumerable: true,
-    get: function () { return core[k]; }
-  });
-});
-Object.keys(react).forEach(function (k) {
-  if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
-    enumerable: true,
-    get: function () { return react[k]; }
-  });
-});
+export { index };

@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   bunchee:
-    specifier: 5.0.0-beta.1
-    version: 5.0.0-beta.1(typescript@5.3.3)
+    specifier: 5.0.0-beta.3
+    version: 5.0.0-beta.3(typescript@5.3.3)
 
 devDependencies:
   '@types/node':
@@ -460,8 +460,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /bunchee@5.0.0-beta.1(typescript@5.3.3):
-    resolution: {integrity: sha512-7avhLZMcFMq0W+QtpoS+lHdwRYdfrSfpUAR/DWQBel1WPzT0Gq4dQ+vJHKS0tXIIjV4FzgcgM1QhsPHY5k4aYw==}
+  /bunchee@5.0.0-beta.3(typescript@5.3.3):
+    resolution: {integrity: sha512-P/LDuZp6A33yL7v54wEtczUz+Yt++4kXPwqTKl6sk3bvv28wwIaImh290VAF8eV7OU3W3zjyu8oMgpH1D0jppw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     peerDependencies:

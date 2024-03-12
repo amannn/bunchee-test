@@ -1,10 +1,3 @@
-Object.defineProperty(exports, '__esModule', { value: true });
+declare function core(): string;
 
-function core() {
-    if (process.env.NODE_ENV === 'development') {
-        console.log('core function called');
-    }
-    return 'core';
-}
-
-exports.core = core;
+export { core };
