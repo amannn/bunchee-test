@@ -1,5 +1,5 @@
-export * from './core.js';
-export * from './react.js';
+export * from './core.mjs';
+export * from './react.mjs';
 
 declare function index(): string;
 
