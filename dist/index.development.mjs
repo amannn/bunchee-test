@@ -1,11 +1,10 @@
-export * from 'bunchee-test/core';
-export * from 'bunchee-test/react';
+var rsc = 'index (rsc)';
 
 function index() {
     {
         console.log('index function called');
     }
-    return 'index';
+    return rsc;
 }
 
 export { index };
