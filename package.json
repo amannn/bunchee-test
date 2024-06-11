@@ -8,10 +8,11 @@
   },
   "exports": {
     ".": {
+      "react-server": "./dist/index.react-server.mjs",
       "import": {
         "types": "./dist/index.d.mts",
-        "development": "./dist/index.development.mjs",
         "production": "./dist/index.production.mjs",
+        "development": "./dist/index.development.mjs",
         "default": "./dist/index.mjs"
       },
       "require": {
