@@ -1,7 +1,8 @@
-var rsc = 'index (rsc)';
+export * from './core.development.mjs';
+export * from './react.development.mjs';
 
 function index() {
-    return rsc;
+    return 'index';
 }
 
 export { index };

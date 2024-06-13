@@ -1,7 +1,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var core = require('bunchee-test/core');
-var react = require('bunchee-test/react');
+var core_production_js = require('./core.production.js');
+var react_production_js = require('./react.production.js');
 
 function index() {
     if (process.env.NODE_ENV === 'development') {
@@ -11,15 +11,15 @@ function index() {
 }
 
 exports.index = index;
-Object.keys(core).forEach(function (k) {
+Object.keys(core_production_js).forEach(function (k) {
   if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
     enumerable: true,
-    get: function () { return core[k]; }
+    get: function () { return core_production_js[k]; }
   });
 });
-Object.keys(react).forEach(function (k) {
+Object.keys(react_production_js).forEach(function (k) {
   if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
     enumerable: true,
-    get: function () { return react[k]; }
+    get: function () { return react_production_js[k]; }
   });
 });

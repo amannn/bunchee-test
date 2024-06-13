@@ -1,5 +1,5 @@
-export * from 'bunchee-test/core';
-export * from 'bunchee-test/react';
+export * from './core.development.mjs';
+export * from './react.development.mjs';
 
 function index() {
     if (process.env.NODE_ENV === 'development') {
