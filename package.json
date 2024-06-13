@@ -26,8 +26,8 @@
     "./core": {
       "import": {
         "types": "./dist/core.d.mts",
-        "development": "./dist/core.development.mjs",
         "production": "./dist/core.production.mjs",
+        "development": "./dist/core.development.mjs",
         "default": "./dist/core.mjs"
       },
       "require": {
@@ -41,8 +41,8 @@
     "./react": {
       "import": {
         "types": "./dist/react.d.mts",
-        "development": "./dist/react.development.mjs",
         "production": "./dist/react.production.mjs",
+        "development": "./dist/react.development.mjs",
         "default": "./dist/react.mjs"
       },
       "require": {
