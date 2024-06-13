@@ -1,3 +1,6 @@
-declare function core(): string;
+import { T as Test } from './utils-shared-BdVwpBM3.js';
 
-export { core };
+declare function core(): string;
+declare const foo: Test;
+
+export { core, foo };

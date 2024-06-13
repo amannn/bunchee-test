@@ -13,3 +13,5 @@ export function test2() {
 
   return 'test2';
 }
+
+export type Test = 'foo';

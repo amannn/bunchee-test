@@ -6,5 +6,6 @@ function core() {
     }
     return 'core' + test1() + test2();
 }
+const foo = 'foo';
 
-export { core };
+export { core, foo };
