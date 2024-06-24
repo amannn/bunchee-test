@@ -58,7 +58,7 @@
   "author": "Jan Amann",
   "license": "MIT",
   "dependencies": {
-    "bunchee": "5.2.0"
+    "bunchee": "5.2.2"
   },
   "devDependencies": {
     "@types/node": "^20.11.5"

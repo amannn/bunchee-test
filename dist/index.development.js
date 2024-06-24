@@ -1,7 +1,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
-var core_production_js = require('./core.production.js');
-var react_production_js = require('./react.production.js');
+var core_development_js = require('./core.development.js');
+var react_development_js = require('./react.development.js');
 
 function index() {
     {
@@ -11,15 +11,15 @@ function index() {
 }
 
 exports.index = index;
-Object.keys(core_production_js).forEach(function (k) {
+Object.keys(core_development_js).forEach(function (k) {
   if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
     enumerable: true,
-    get: function () { return core_production_js[k]; }
+    get: function () { return core_development_js[k]; }
   });
 });
-Object.keys(react_production_js).forEach(function (k) {
+Object.keys(react_development_js).forEach(function (k) {
   if (k !== 'default' && !Object.prototype.hasOwnProperty.call(exports, k)) Object.defineProperty(exports, k, {
     enumerable: true,
-    get: function () { return react_production_js[k]; }
+    get: function () { return react_development_js[k]; }
   });
 });

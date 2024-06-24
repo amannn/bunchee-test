@@ -1,5 +1,5 @@
-export * from './core.production.mjs';
-export * from './react.production.mjs';
+export * from './core.development.mjs';
+export * from './react.development.mjs';
 
 function index() {
     {

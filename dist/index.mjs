@@ -1,5 +1,5 @@
-export * from './core.production.mjs';
-export * from './react.production.mjs';
+export * from './core.mjs';
+export * from './react.mjs';
 
 function index() {
     if (process.env.NODE_ENV === 'development') {
