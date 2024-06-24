@@ -2,56 +2,59 @@
   "name": "bunchee-test",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/cjs/index.d.ts",
+  "type": "commonjs",
   "scripts": {
     "build": "bunchee"
   },
   "exports": {
     ".": {
-      "react-server": "./dist/index.react-server.mjs",
+      "react-server": "./dist/esm/index.react-server.mjs",
       "import": {
-        "types": "./dist/index.d.mts",
-        "production": "./dist/index.production.mjs",
-        "development": "./dist/index.development.mjs",
-        "default": "./dist/index.mjs"
+        "types": "./dist/esm/index.d.mts",
+        "production": "./dist/esm/index.production.mjs",
+        "development": "./dist/esm/index.development.mjs",
+        "default": "./dist/esm/index.mjs"
       },
       "require": {
-        "types": "./dist/index.d.ts",
-        "production": "./dist/index.production.js",
-        "development": "./dist/index.development.js",
-        "default": "./dist/index.js"
+        "types": "./dist/cjs/index.d.ts",
+        "production": "./dist/cjs/index.production.js",
+        "development": "./dist/cjs/index.development.js",
+        "default": "./dist/cjs/index.js"
       },
-      "default": "./dist/index.js"
+      "default": "./dist/cjs/index.js"
     },
     "./core": {
       "import": {
-        "types": "./dist/core.d.mts",
-        "production": "./dist/core.production.mjs",
-        "development": "./dist/core.development.mjs",
-        "default": "./dist/core.mjs"
+        "types": "./dist/esm/core.d.mts",
+        "production": "./dist/esm/core.production.mjs",
+        "development": "./dist/esm/core.development.mjs",
+        "default": "./dist/esm/core.mjs"
       },
       "require": {
-        "types": "./dist/core.d.ts",
-        "production": "./dist/core.production.js",
-        "development": "./dist/core.development.js",
-        "default": "./dist/core.js"
+        "types": "./dist/cjs/core.d.ts",
+        "production": "./dist/cjs/core.production.js",
+        "development": "./dist/cjs/core.development.js",
+        "default": "./dist/cjs/core.js"
       },
-      "default": "./dist/core.js"
+      "default": "./dist/cjs/core.js"
     },
     "./react": {
       "import": {
-        "types": "./dist/react.d.mts",
-        "production": "./dist/react.production.mjs",
-        "development": "./dist/react.development.mjs",
-        "default": "./dist/react.mjs"
+        "types": "./dist/esm/react.d.mts",
+        "production": "./dist/esm/react.production.mjs",
+        "development": "./dist/esm/react.development.mjs",
+        "default": "./dist/esm/react.mjs"
       },
       "require": {
-        "types": "./dist/react.d.ts",
-        "production": "./dist/react.production.js",
-        "development": "./dist/react.development.js",
-        "default": "./dist/react.js"
+        "types": "./dist/cjs/react.d.ts",
+        "production": "./dist/cjs/react.production.js",
+        "development": "./dist/cjs/react.development.js",
+        "default": "./dist/cjs/react.js"
       },
-      "default": "./dist/react.js"
+      "default": "./dist/cjs/react.js"
     }
   },
   "keywords": [],
