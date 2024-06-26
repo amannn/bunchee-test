@@ -1,3 +1,5 @@
+declare function Component(): string;
+
 declare function react(): string;
 
-export { react };
+export { Component, react };

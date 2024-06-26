@@ -7,3 +7,5 @@ export function react() {
 
   return 'react' + test1() + test2();
 }
+
+export {default as Component} from './Component';
