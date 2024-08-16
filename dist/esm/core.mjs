@@ -1,4 +1,4 @@
-import { t as test1, a as test2 } from './utils-shared-qauB_YLb.js';
+import { t as test1, a as test2 } from './utils-shared-qauB_YLb.mjs';
 
 function core() {
     if (process.env.NODE_ENV === 'development') {

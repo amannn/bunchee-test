@@ -66,6 +66,6 @@
   "devDependencies": {
     "@types/node": "^20.11.5",
     "@types/react": "^18.3.3",
-    "bunchee": "^5.2.2"
+    "bunchee": "^5.3.2"
   }
 }

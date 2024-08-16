@@ -1,4 +1,4 @@
-import { t as test1, a as test2 } from './utils-shared-CqUhGy_d.js';
+import { t as test1, a as test2 } from './utils-shared-CqUhGy_d.mjs';
 
 function core() {
     {

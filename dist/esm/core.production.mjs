@@ -1,4 +1,4 @@
-import { t as test1, a as test2 } from './utils-shared-Kd4CWAmc.js';
+import { t as test1, a as test2 } from './utils-shared-Kd4CWAmc.mjs';
 
 function core() {
     return 'core' + test1() + test2();
