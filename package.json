@@ -42,6 +42,7 @@
       "default": "./dist/cjs/core.js"
     },
     "./react": {
+      "react-server": "./dist/esm/react.react-server.mjs",
       "import": {
         "types": "./dist/esm/react.d.mts",
         "production": "./dist/esm/react.production.mjs",

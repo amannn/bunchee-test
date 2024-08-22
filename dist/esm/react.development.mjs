@@ -1,5 +1,5 @@
 import { t as test1, a as test2 } from './utils-shared-CqUhGy_d.mjs';
-export { C as Component } from './Component-client-BLhlEX3o.mjs';
+export { C as Component } from './Component-client-870vTXzT.mjs';
 
 function react() {
     {

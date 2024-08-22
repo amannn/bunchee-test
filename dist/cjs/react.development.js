@@ -1,7 +1,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var utilsShared = require('./utils-shared-FDBV6E2E.js');
-var ComponentClient = require('./Component-client-DgT1iNhW.js');
+var ComponentClient = require('./Component-client-CbOzexRh.js');
 
 function react() {
     {

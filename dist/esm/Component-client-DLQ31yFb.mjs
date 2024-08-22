@@ -1,9 +1,13 @@
 'use client';
 import { useState } from 'react';
 
-function Component() {
-    const [hello] = useState('world');
-    return hello;
+function util1() {
+    return 'util1';
 }
 
-export { Component as C };
+function Component() {
+    const [hello] = useState('world');
+    return hello + util1();
+}
+
+export { Component as C, util1 as u };
